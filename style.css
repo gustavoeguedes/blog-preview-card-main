@@ -37,7 +37,7 @@ body {
 .card article {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 16px;
 }
 
 .card h3 {
@@ -61,6 +61,11 @@ body {
     font-weight: 900;
 }
 
+.card h2:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
+
 .card p {
     color: #6b6b6b;
     font-weight: 500;
@@ -70,5 +75,15 @@ body {
     color: #111;
     font-size: 14px;
     font-weight: 900;
-    text-indent: 2em;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile img {
+    width: 40px;
+    
 }
