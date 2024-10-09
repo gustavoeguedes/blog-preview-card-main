@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     background-color: #fff;
     width: 384px;
+    max-width: 90%;
     padding: 24px;
     border-radius: 20px;
     gap: 24px;
